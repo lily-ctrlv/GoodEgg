@@ -1,0 +1,513 @@
+/* ALL THE PAGES ARE LINKED TO THIS stylesheet*
+ REMEBER THAT WHEN CREATING CLASS/ID SO WE DON'T HAVE STYLING CONFLICTS*/
+
+/* WHOLE PROJECT start  */
+ * {
+
+
+ }
+
+
+
+
+ /* WHOLE PROJECT end  */
+
+ /* Index.html start */
+
+
+#Logonavbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar {
+  transition: all 1s;
+}
+
+nav {
+  max-height: 70px;
+}
+.nav-item{
+  padding-bottom: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.display-3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 70px;
+  letter-spacing: 10px;
+}
+
+.lead{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 10px;
+}
+.btn{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 10px;
+}
+.carousel-caption {
+   transform: translateY(-40%);
+   bottom: 0;
+   top: 50%;
+ }
+
+.jumbotron {
+  padding-top:146px;
+  min-height: 700px;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+
+}
+
+.jumbotron .container {
+  text-align: center;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+
+.jumbotron video {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  opacity:0.5;
+
+}
+
+.card-title_eggs_type{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.card-text_eggs_type{
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+  .bookatable{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  #bookatable {
+    font-family: 'Cutive-mono', monospace;
+    font-weight: 200;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 80%;
+    color: #E7AE30;
+  }
+
+  #bookatable .form-control {
+    border: 1.5px solid #333333;
+  }
+
+  .form-control{
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+}
+#block1 {
+  min-height: 500px;
+}
+
+
+
+ .form-control {
+   width: 200px;
+   height: 38px;
+   color: black;
+   border: 1px solid #333333;
+   font-family: dosis , sans-serif;
+   border-radius: 0px;
+ }
+
+ .formGroup {
+   height: 62px;
+ }
+
+
+#justsoyouknow h6 {
+  font-family: 'Cutive-mono', monospace;
+  font-weight: 200;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 80%;
+}
+
+ #block1 {
+   min-height: 500px;
+ }
+
+ #bookNowButton {
+  padding-top: 20px;
+  width: 150px;
+  /* letter-spacing: 1px;
+  opacity: 0.5%; */
+
+}
+
+#bookNowButton .btn-secondary{
+    background-color: white;
+    border-color: black;
+    border-radius: 0px;
+    color: black;
+    border: 2px solid #333333;
+    font-family: dosis , sans-serif;
+    letter-spacing: 2px;
+
+
+}
+
+ #block1 div .col {
+   padding-bottom: 20px;
+   padding-left: 0px;
+ }
+
+
+
+#paralax1 {
+  background-image: url(https://1.bp.blogspot.com/-MfG8ycI99tg/WKAX03nIOsI/AAAAAAAACQw/9vTJc3lfFW0PssFT2SzDCNirgKTwAjHjQCLcB/s1600/bataatti%2Btoast_bataatti%2Bavocado%2Btoast%2Buppomunalla_aamiainen-4.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#testimonials {
+  background-color: white;
+  min-height: 500px;
+}
+
+#paralax2 {
+  background-image: url(https://i.pinimg.com/originals/94/d5/d9/94d5d98cdbe35fa6558a07b48b027790.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  min-height: 400px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ourMenu {
+  background-color: white;
+  min-height:500px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#ourMenu img {
+  height: auto;
+  width: 250px;
+  align-self: center;
+}
+#paralax2 {
+color: white;
+text-align: center;
+display: inline-block;
+vertical-align: middle;
+line-height: normal;
+padding-top: 25%;
+padding-bottom: 25%;
+}
+
+.card {
+  border: none;
+}
+
+#paralax3 {
+  background-image: url(https:goo.gl/vaUdmx?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  min-height: 400px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+table {
+    text-align: center;
+}
+
+.table td {
+    border: none;
+}
+#ourfood{
+  display: flex;
+  flex-direction: row;
+  display:inline;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 10px;
+  text-align: center;
+  line-height: 10px;
+  width: 650px;
+}
+
+.form-group{
+  padding:0px;
+  height: 30px;
+}
+
+.rhstext{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 30px;
+  padding-top: 35px;
+}
+
+#glyph {
+  height: 70px;
+  width: auto;
+}
+
+.footer-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.col-md-4{
+  padding-left: 110px;
+}
+
+.fa-map-marker-alt{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #e7ae30;
+  font-size: 18px;
+}
+
+.fa-phone-volume{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #e7ae30;
+  font-size: 18px;
+}
+
+.fa-envelope{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #e7ae30;
+  font-size: 18px;
+}
+
+.title-deets{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 28px;
+}
+.good-egg{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.address-deets{
+  font-family: 'Cutive-mono', monospace;
+  font-weight: 200;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 80%;
+}
+
+.address-deets-2{
+  font-family: 'Cutive-mono', monospace;
+  font-weight: 200;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 80%;
+}
+
+input[type=submit] {
+  border: 1.5px solid #333333;
+  background-color: white;
+  color: #333333;
+  padding: 8px 60px;
+  font-size: 12px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  }
+
+  .follow-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .insta-feed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  /* div .INSTA_FEED {
+    height: 100%;
+  } */
+.copyright {
+  text-align: center;
+  font-family: cutive-mono  , monospace;
+  text-transform: uppercase;
+}
+
+/* Index.html end */
+
+ /* shop.html start */
+
+ #paralaxmona1 {
+  background-image: url(https://image.ibb.co/nv9Euy/BANNER3.png);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ #tablemona{
+   text-align: center;
+   text-decoration-style: solid;
+   font-size-adjust: 100px;
+   font-family:arial ;
+ }
+
+
+ #cardMona .card{
+   border-color: none;
+ }
+
+ #cardMona .card-header {
+   font-family: Montserrat bold;
+   color: #black;
+ }
+
+ #cardMona .card-sale{
+   font-family: dosis semi-bold;
+ }
+
+ #cardMona .card-title{
+   font-family: Dosis semi-bold;
+   align-items: baseline;
+   text-align: center;
+ }
+
+ #cardMona .card-price{
+   font-family: Montserrat;
+   text-align: center;
+ }
+
+ #cardMona .card-text{
+   font-family: cutive Mono;
+   text-align: center;
+ }
+
+#cardMona .card-img-top {
+   height: 500px;
+   width: 400px;
+ }
+
+#containerMona .container {
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   max-width: 750px;
+   margin: 50px auto;
+ }
+
+ #containerMona .container .card-top{
+   display: flex;
+   height:100%;
+   width:100%;
+   flex-direction: column;
+   flex-wrap: wrap;
+   flex: auto;
+   text-align: center;
+   border-radius: 2px;
+   padding: 25px;
+ }
+
+ #containerMona .container .card-below{
+   display: flex;
+   height:100%;
+   width:100%;
+   flex-direction: column;
+   flex-wrap: wrap;
+   flex: auto;
+   text-align: center;
+   border-radius: 2px;
+   padding: 25px;
+ }
+
+ .btn-shop{
+   font-style: italic;
+   text-align: right;
+ }
+
+
+
+ .carousel-inner > .item > img {
+     margin: auto;
+     align-items: center;
+     display: flex;
+ }
+
+
+ /* shop.html end */
+
+ /* contactus.html start */
+
+
+
+ /* contactus.html end */

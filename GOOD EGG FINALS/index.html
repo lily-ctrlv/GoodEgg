@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500|Dosis:300,400,500,600|Cutive+Mono:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+      <!-- JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JavaScript\app.js"></script>
+
+    <title>Good Egg - Home</title>
+  </head>
+  <body>
+      <!-- HEAD START Lili working on this. Navbar + Jumbotron -->
+      <!-- this is the beginning of the navbar -->
+    <nav class="navbar d-flex align-items-end justify-content-between fixed-top navbar-expand-lg navbar-dark">
+      <a class="navbar-brand mb-0 h1" href="index.html">
+        <img id="Logonavbar" src="Media\EGG-LOGO-white.png"  width="100" height="auto" class="d-inline-block align-bottom" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#bookatable">Book a table</a>
+          <a class="nav-item nav-link" href="#menuanchor">Menu</a>
+          <a class="nav-item nav-link" href="pages\contactus.html">Contact</a>
+          <a class="nav-item nav-link" href="pages\shop.html">Shop</a>
+        </div>
+      </div>
+    </nav>
+
+
+      <!-- OPTION 1 beggining of caroursel -->
+<!--
+    <div>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner d-block">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="First slide">
+            <div class="caps d-flex align-middle">
+
+
+            <div class="carousel-caption d-flex d-md-block">
+              <h2 id="carousel_large_caption">Come and visit us</h2>
+              <p id="carousel_paragraph">And endulge in the greatest gastronomic experience</p>
+              <button id="bookButton" type="button" class="btn btn-outline-light">Book a table</button>
+              <button id="buttonHShop" type="button" class="btn btn-outline-light">Shop now</button>
+            </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.pexels.com/photos/8806/food-breakfast-egg-milk.jpg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block vertical-align-middle">
+              <h2 id="carousel_large_caption">Come and visit us</h2>
+              <p id="carousel_paragraph">And endulge in the greatest gastronomic experience</p>
+              <button id="bookButton" type="button" class="btn btn-outline-light">Book a table</button>
+              <button id="buttonHShop" type="button" class="btn btn-outline-light">Shop now</button>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.pexels.com/photos/824635/pexels-photo-824635.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 id="carousel_large_caption">Come and visit us</h2>
+              <p id="carousel_paragraph">And endulge in the greatest gastronomic experience</p>
+              <button id="bookButton" type="button" class="btn btn-outline-light">Book a table</button>
+              <button id="buttonHShop" type="button" class="btn btn-outline-light">Shop now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+        <!-- OPTION 1 END -->
+
+
+      <!-- Option 2 Hero Video -->
+    <div class="bg">
+      <div class="jumbotron jumbotron-fluid">
+        <video autoplay muted loop  poster="">
+          <source src="Media\eggsheader.mp4" type="video/mp4">
+          <!-- <source src="Media\poached.webm" type="video/webm"> -->
+       </video>
+        <div class="container">
+          <h1 class="display-3">HOW DO YOU LIKE YOUR EGGS?</h1>
+          <p class="lead">The ultimate eggsperience</p>
+          <p class="lead">
+            <a class="btn btn-outline-light btn-lg" href="#" role="button">view our menu</a>
+            <a class="btn btn-outline-light btn-lg" href="#" role="button">Book a table</a>
+          </p>
+        </div>
+      </div>
+    </div>
+      <!-- HEAD END -->
+
+      <!-- MAIN BODY - START -->
+      <div class="container d-flex flex-row justify-content-around " id="block1">
+        <div class="col-sm-6 p-10 m-5" id="bookingform">
+          <div class="row">
+            <div class="col">
+              <h5 id="bookatable">Book a table</h5>
+            </div>
+          </div>
+            <form>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <input type="datetime-local" class="form-control" placeholder="When">
+                </div>
+                <div class="col">
+                  <input type="number" class="form-control" placeholder="Number of guests">
+                </div>
+              </div>
+              <div class="row" id="justsoyouknow">
+                <h6 class="bookingText">Just so you know, we're open 24/7 ready to make all your dreams come true.</h6>
+                <h6 class="bookingText">We can easily accommodate large groups. Just give us a call!</h6>
+                <h6 class="bookingText">PLease note that by clicking <em>Book Now!</em> you're agreeing to our <a href="index.html">Terms and Conditions</a> and <a href="index.html">Terms of Use</a>.</h6>
+              </div>
+              <div class="row" id="bookNowButton">
+                <a class="btn btn-secondary" href="#" role="button">Book Now!</a>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-6 p-10 m-5">
+            <h5 class="rhstext">All our food is fresh, with a focus on well-sourced ingredients; from breakfast and brunch.
+              We think you’ll love our small and sharing dishes (imagine crispy peppered squid or smoked salmon, dill & lemon pate) that complement the well-chosen beer, wine and cocktail lists to enjoy from lunch into late evening.</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid d-flex-middle alig-content-center align-middle" id="paralax2">
+        <span>
+          <h2></h2>
+        </span>
+      </div>
+
+
+      <div class="container-fluid" id="ourMenu">
+
+        <div class="card-deck" id="menuanchor">
+          <div class="card">
+            <img class="card-img-top" src="Media\65ff575e967295ac319ac5edde473488--avocado-egg-toast-egg-on-toast.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title_eggs_type">BAKED</h5>
+              <p class="card-text_eggs_type">With Chives on buttered sourdough toast</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="Media\0428_PREFAB_SPROUT_194.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title_eggs_type">BOILED</h5>
+              <p class="card-text_eggs_type">Free Range Eggs on Grilled Sourdough Toast </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="Media\EGGS_TWO.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title_eggs_type">POACHED</h5>
+              <p class="card-text_eggs_type">Smoked salmon, avocado and spinach on sourdough </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="container-fluid" id="paralax1"></div>
+
+        <div class="container-fluid d-flex align-items-center justify-content-around" id="testimonials">
+        <class="our-food" id="ourfood"> <h3>All our food is fresh, scratch-cooked, with a focus on well-sourced ingredients; from breakfast and brunch, to social snacks and Sunday roasts </h3>
+        </div>
+
+    <!-- MAIN BODY -END -->
+
+
+    <!-- FOOTER START - Natalie Working on, Footer (social/contact/map) -->
+
+    <div class="container-fluid" id="paralax3"></div>
+ <footer>
+    <div class="footer-wrapper d-flex align-items-center justify-content-around" id="footer-cotainer">
+      <div class="row">
+        <div class="col-md-4">
+          <i class="fas fa-map-marker-alt"></i>
+          <h2 class="title-deets">ADDRESS</h2>
+          <p class="good-egg">GOOD EGG</p>
+          <h4 class="address-deets">197-199 chiswick high road London, W4 2DR</h4>
+        </br>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-phone-volume"></i>
+          <br>
+          <h2 class="title-deets">CONTACT</h2>
+          <p class="good-egg">GOOD EGG</p>
+          <h4 class="address-deets">0203 857 4669</h4>
+          <h4 class="address-deets">hello@goodegg.co.uk</h4>
+
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-envelope"></i>
+          <h2 class="title-deets">SIGN UP</h2>
+          <form action="/action_page.php">
+          <div class="address-deets-2">First name:</div>
+            <input type="text" name="firstname" value="">
+            <br>
+            <div class="address-deets-2">Last name:</div>
+            <input type="text" name="lastname" value="">
+            <br><br>
+            <input type="submit" value="Submit">
+            </form>
+            </br>
+          </div>
+        </div>
+      </div>
+      <div class="follow-us">
+        <h3> A CRACKING GOOD BREAKFAST </h3>
+        <h4> #GOODEGG </h4>
+      </div>
+      <div class="insta-feed">
+        <img src="Media\INSTA_FEED.png" width="960px" height="231px" alt="INSTA_FEED" border="0">
+        </div>
+        <div class="copyright">
+          <p>Created by <em>The Good Egg Girls</em> 2018</p>
+          <p>DISCLAIMER: We crack yolks because we can</p>
+
+        </div>
+    </footer>
+
+
+
+  </body>
+</html>
