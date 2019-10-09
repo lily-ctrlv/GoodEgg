@@ -1,2 +1,2 @@
 # Good Egg
-Code first girl final project winner
+Code first girls final project winner
