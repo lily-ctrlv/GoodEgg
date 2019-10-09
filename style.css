@@ -21,6 +21,7 @@
 }
 
 nav {
+  height: 70px;
   max-height: 70px;
 }
 .nav-item{
