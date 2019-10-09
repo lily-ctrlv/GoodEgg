@@ -54,7 +54,7 @@ nav {
   font-weight: 500;
   text-transform: uppercase;
   font-size: 15px;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   margin: 10px;
 }
 .carousel-caption {
@@ -145,7 +145,16 @@ nav {
 
   #bookatable .form-control {
     border: 1.5px solid #333333;
+    color: #333333!important;
   }
+
+  #block1 input.form-control {
+    color: #333333!important;
+
+  }
+
+
+
 
   .form-control{
     font-family: 'Cutive Mono', monospace;
@@ -153,6 +162,7 @@ nav {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
+
 }
 
 }
@@ -424,110 +434,3 @@ input[type=submit] {
 }
 
 /* Index.html end */
-
- /* shop.html start */
-
- #paralaxmona1 {
-  background-image: url(https://image.ibb.co/nv9Euy/BANNER3.png);
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
- }
-
- #tablemona{
-   text-align: center;
-   text-decoration-style: solid;
-   font-size-adjust: 100px;
-   font-family:arial ;
- }
-
-
- #cardMona .card{
-   border-color: none;
- }
-
- #cardMona .card-header {
-   font-family: Montserrat bold;
-   color: #black;
- }
-
- #cardMona .card-sale{
-   font-family: dosis semi-bold;
- }
-
- #cardMona .card-title{
-   font-family: Dosis semi-bold;
-   align-items: baseline;
-   text-align: center;
- }
-
- #cardMona .card-price{
-   font-family: Montserrat;
-   text-align: center;
- }
-
- #cardMona .card-text{
-   font-family: cutive Mono;
-   text-align: center;
- }
-
-#cardMona .card-img-top {
-   height: 500px;
-   width: 400px;
- }
-
-#containerMona .container {
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   max-width: 750px;
-   margin: 50px auto;
- }
-
- #containerMona .container .card-top{
-   display: flex;
-   height:100%;
-   width:100%;
-   flex-direction: column;
-   flex-wrap: wrap;
-   flex: auto;
-   text-align: center;
-   border-radius: 2px;
-   padding: 25px;
- }
-
- #containerMona .container .card-below{
-   display: flex;
-   height:100%;
-   width:100%;
-   flex-direction: column;
-   flex-wrap: wrap;
-   flex: auto;
-   text-align: center;
-   border-radius: 2px;
-   padding: 25px;
- }
-
- .btn-shop{
-   font-style: italic;
-   text-align: right;
- }
-
-
-
- .carousel-inner > .item > img {
-     margin: auto;
-     align-items: center;
-     display: flex;
- }
-
-
- /* shop.html end */
-
- /* contactus.html start */
-
-
-
- /* contactus.html end */
