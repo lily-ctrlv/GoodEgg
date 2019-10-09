@@ -16,11 +16,7 @@ $(document).ready(function(){
   })
 })
 
-// function myMap() {
-//  var myMaps = new google.maps.LatLng(51.508742,-0.120850);
-//  var mapCanvas = document.getElementById("map");
-//  var mapOptions = {center: myMaps, zoom: 12};
-//  var map = new google.maps.Map(mapCanvas, mapOptions);
-//  var marker = new google.maps.Marker({position:myMaps});
-//  marker.setMap(map);
-// }
+// smooth scrolling
+
+// Select all links with hashes
+ 
