@@ -1,16 +1,3 @@
-/* ALL THE PAGES ARE LINKED TO THIS stylesheet*
- REMEBER THAT WHEN CREATING CLASS/ID SO WE DON'T HAVE STYLING CONFLICTS*/
-
-/* WHOLE PROJECT start  */
- * {
-
-
- }
- /* WHOLE PROJECT end  */
-
- /* Index.html start */
-
-
 #Logonavbar {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -24,7 +11,8 @@ nav {
   height: 70px;
   max-height: 70px;
 }
-.nav-item{
+
+.nav-item {
   padding-bottom: 0px;
   margin-left: 15px;
   margin-right: 15px;
@@ -34,7 +22,7 @@ nav {
   letter-spacing: 2px;
 }
 
-.display-3{
+.display-3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -42,14 +30,15 @@ nav {
   letter-spacing: 10px;
 }
 
-.lead{
+.lead {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   font-size: 28px;
   letter-spacing: 10px;
 }
-.btn{
+
+.btn {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -57,23 +46,23 @@ nav {
   letter-spacing: 5px;
   margin: 10px;
 }
+
 .carousel-caption {
-   transform: translateY(-40%);
-   bottom: 0;
-   top: 50%;
- }
+  transform: translateY(-40%);
+  bottom: 0;
+  top: 50%;
+}
 
 .bg {
-
   height: 100vh;
 }
+
 .jumbotron {
-  padding-top:146px;
+  padding-top: 146px;
   min-height: 100%;
   position: relative;
   overflow: hidden;
   background-color: black;
-
 }
 
 #jumboContainer {
@@ -82,7 +71,6 @@ nav {
   top: 50px;
   padding: 20px 0;
   text-align: center;
-
 }
 
 .jumbotron .container {
@@ -96,20 +84,20 @@ nav {
   position: absolute;
   z-index: 1;
   top: 0;
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  opacity:0.5;
-
+  opacity: 0.5;
 }
 
-.card-title_eggs_type{
+.card-title_eggs_type {
   font-family: 'Dosis', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.card-text_eggs_type{
+
+.card-text_eggs_type {
   font-family: 'Cutive Mono', monospace;
   font-weight: 500;
   text-transform: uppercase;
@@ -118,73 +106,64 @@ nav {
 }
 
 .card-img-top:hover {
-
   opacity: 1;
 }
-.card-img-top {
 
+.card-img-top {
   opacity: 0.8;
 }
 
-  .bookatable{
-    font-family: 'Dosis', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-
-  #bookatable {
-    font-family: 'Cutive-mono', monospace;
-    font-weight: 200;
-    font-size: 25px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    width: 80%;
-    color: #E7AE30;
-  }
-
-  #bookatable .form-control {
-    border: 1.5px solid #333333;
-    color: #333333!important;
-  }
-
-  #block1 input.form-control {
-    color: #333333!important;
-
-  }
-
-
-
-
-  .form-control{
-    font-family: 'Cutive Mono', monospace;
-    font-weight: 500;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-
+.bookatable {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
+#bookatable {
+  font-family: 'Cutive-mono', monospace;
+  font-weight: 200;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 80%;
+  color: #E7AE30;
 }
+
+#bookatable .form-control {
+  border: 1.5px solid #333333;
+  color: #333333 !important;
+}
+
+#block1 input.form-control {
+  color: #333333 !important;
+}
+
+.form-control {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+}
+
 #block1 {
   min-height: 500px;
 }
 
+.form-control {
+  width: 200px;
+  height: 38px;
+  color: black;
+  border: 1px solid #333333;
+  font-family: dosis, sans-serif;
+  border-radius: 0px;
+}
 
-
- .form-control {
-   width: 200px;
-   height: 38px;
-   color: black;
-   border: 1px solid #333333;
-   font-family: dosis , sans-serif;
-   border-radius: 0px;
- }
-
- .formGroup {
-   height: 62px;
- }
-
+.formGroup {
+  height: 62px;
+}
 
 #justsoyouknow h6 {
   font-family: 'Cutive-mono', monospace;
@@ -195,41 +174,35 @@ nav {
   width: 80%;
 }
 
- #block1 {
-   min-height: 500px;
- }
+#block1 {
+  min-height: 500px;
+}
 
- #bookNowButton {
+#bookNowButton {
   padding-top: 20px;
   width: 150px;
   /* letter-spacing: 1px;
   opacity: 0.5%; */
-
 }
 
-#bookNowButton .btn-secondary{
-    background-color: white;
-    border-color: black;
-    border-radius: 0px;
-    color: black;
-    border: 2px solid #333333;
-    font-family: dosis , sans-serif;
-    letter-spacing: 2px;
-
-
+#bookNowButton .btn-secondary {
+  background-color: white;
+  border-color: black;
+  border-radius: 0px;
+  color: black;
+  border: 2px solid #333333;
+  font-family: dosis, sans-serif;
+  letter-spacing: 2px;
 }
 
- #block1 div .col {
-   padding-bottom: 20px;
-   padding-left: 0px;
- }
-
-
+#block1 div .col {
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
 
 #paralax1 {
   background-image: url(https://1.bp.blogspot.com/-MfG8ycI99tg/WKAX03nIOsI/AAAAAAAACQw/9vTJc3lfFW0PssFT2SzDCNirgKTwAjHjQCLcB/s1600/bataatti%2Btoast_bataatti%2Bavocado%2Btoast%2Buppomunalla_aamiainen-4.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   min-height: 500px;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -244,7 +217,6 @@ nav {
 #paralax2 {
   background-image: url(https://i.pinimg.com/originals/94/d5/d9/94d5d98cdbe35fa6558a07b48b027790.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   min-height: 400px;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -253,7 +225,7 @@ nav {
 
 #ourMenu {
   background-color: white;
-  min-height:500px;
+  min-height: 500px;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -264,14 +236,15 @@ nav {
   width: 250px;
   align-self: center;
 }
+
 #paralax2 {
-color: white;
-text-align: center;
-display: inline-block;
-vertical-align: middle;
-line-height: normal;
-padding-top: 25%;
-padding-bottom: 25%;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  padding-top: 25%;
+  padding-bottom: 25%;
 }
 
 .card {
@@ -281,7 +254,6 @@ padding-bottom: 25%;
 #paralax3 {
   background-image: url(https://i.pinimg.com/originals/b8/fa/55/b8fa550411d480a9902d9c4ccf7969e5.png);
   min-height: 400px;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -289,16 +261,17 @@ padding-bottom: 25%;
 }
 
 table {
-    text-align: center;
+  text-align: center;
 }
 
 .table td {
-    border: none;
+  border: none;
 }
-#ourfood{
+
+#ourfood {
   display: flex;
   flex-direction: row;
-  display:inline;
+  display: inline;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -309,12 +282,12 @@ table {
   width: 650px;
 }
 
-.form-group{
-  padding:0px;
+.form-group {
+  padding: 0px;
   height: 30px;
 }
 
-.rhstext{
+.rhstext {
   font-family: 'Dosis', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -328,44 +301,45 @@ table {
   width: auto;
 }
 
-.footer-wrapper{
+.footer-wrapper {
   display: flex;
   align-items: center;
 }
 
-.col-md-4{
+.col-md-4 {
   padding-left: 110px;
 }
 
-.fa-map-marker-alt{
+.fa-map-marker-alt {
   padding-top: 50px;
   padding-bottom: 20px;
   color: #e7ae30;
   font-size: 18px;
 }
 
-.fa-phone-volume{
+.fa-phone-volume {
   padding-top: 50px;
   padding-bottom: 20px;
   color: #e7ae30;
   font-size: 18px;
 }
 
-.fa-envelope{
+.fa-envelope {
   padding-top: 50px;
   padding-bottom: 20px;
   color: #e7ae30;
   font-size: 18px;
 }
 
-.title-deets{
+.title-deets {
   font-family: 'Dosis', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 28px;
 }
-.good-egg{
+
+.good-egg {
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -373,7 +347,7 @@ table {
   letter-spacing: 2px;
 }
 
-.address-deets{
+.address-deets {
   font-family: 'Cutive-mono', monospace;
   font-weight: 200;
   font-size: 14px;
@@ -382,7 +356,7 @@ table {
   width: 80%;
 }
 
-.address-deets-2{
+.address-deets-2 {
   font-family: 'Cutive-mono', monospace;
   font-weight: 200;
   font-size: 12px;
@@ -402,35 +376,31 @@ input[type=submit] {
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;
-  }
-
-  .follow-us{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-    font-family: 'Dosis', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-
-  .insta-feed{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px;
-  }
-
-  /* div .INSTA_FEED {
-    height: 100%;
-  } */
-.copyright {
-  text-align: center;
-  font-family: cutive-mono  , monospace;
-  text-transform: uppercase;
 }
 
-/* Index.html end */
+.follow-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.insta-feed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+
+.copyright {
+  text-align: center;
+  font-family: cutive-mono, monospace;
+  text-transform: uppercase;
+}
